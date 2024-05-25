@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="calculator.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="moverCalculadora">
+        <div class="fundoCalcualdora">
+        <main  id="teste" class="tela"></main>
+         <div>
+             <div>
+                 <button onclick="apagar()" >CE</button>
+                 <button onclick="apagar()">C</button>
+                 <button onclick="apagarUmValor()"><<</button>
+                 <button onclick="dividir()">/</button>  
+             </div>
+             <div>
+                 <button onclick="numero_7()">7</button>
+                 <button onclick="numero_8()">8</button>
+                 <button onclick="numero_9()">9</button>
+                 <button onclick="multi()">*</button>
+             </div>
+             <div>
+                 <button onclick="numero_4()">4</button>
+                 <button onclick="numero_5()">5</button>
+                 <button onclick="numero_6()">6</button>
+                 <button onclick="teste()">-</button>
+             </div>
+             <div>
+                 <button onclick="numero_1()">1</button>
+                 <button onclick="numero_2()">2</button>
+                 <button onclick="numero_3()">3</button>
+                 <button onclick="mais()" >+</button>
+             </div>
+             <button>±</button>
+             <button onclick="numero_0()">0</button>
+             <button onclick="numero_virgula()">,</button>
+             <button onclick="enter()">=</button>
+         </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

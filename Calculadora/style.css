@@ -1,0 +1,57 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    margin-top: 30px;
+    background-color:  rgb(134, 81, 0); ;
+}
+
+
+.moverCalculadora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: -100vh;
+}
+
+.fundoCalcualdora{
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 153, 0);
+    width: 350px;
+    height:500px;
+    padding-top: 50px;
+    border-radius: 7px;
+}
+
+.tela{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: black;
+    width: 90%;
+    overflow-x: auto; 
+    height: 100px;
+    margin-bottom: 20px;   
+    border-radius: 7px;
+    font-size: 65px;
+    color: white;
+}
+
+button{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    width: 72px;
+    border-radius: 7px;
+    height: 65px;
+    margin: 2px;
+}
+
+button:hover{
+    background-color: rgb(255, 153, 0);
+    cursor: pointer;
+}
