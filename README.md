@@ -21,8 +21,6 @@ Terminado
 
 # &#10004; Projeto terminado
 
-# &#10004; Calculadora
-
 <a href="https://kaiketorres.github.io/Projeto-Calculadora
 /index.html">Projeto Calculadora</a> 
 
