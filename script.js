@@ -1,6 +1,5 @@
-let numeros = [0,1,2,3,4,5,6,7,8,9]
-let total = []
-let tela = document.querySelector("main")
+let tela = document.querySelector("#display")
+
 
 function numero_0(){  
     tela.innerHTML += 0
