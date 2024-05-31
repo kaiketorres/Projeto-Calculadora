@@ -27,7 +27,7 @@ body{
     border-radius: 7px;
 }
 
-.tela{
+.styler_display{
     display: flex;
     justify-content: end;
     align-items: end;
